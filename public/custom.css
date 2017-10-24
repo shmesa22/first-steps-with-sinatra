@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 50px);
+  background: #719b68;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.random-names {
+  font-size: 50px;
+  color: #333;
+  transition: color 2s, font-size 2s;
+}
+
+.random-names:hover {
+  font-size: 80px;
+  color: white;
+}
